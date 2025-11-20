@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Management Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <section class="sidebar">
+        <div class="sidebar-heading">
+          <p>R</p>
+          <p>Rhombus</p>
+        </div>
+
+        <div class="sidebar-menu-lists">
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> dashboard </span>
+            <a href="#">Dashboard</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> package_2 </span>
+            <a href="#">Inventory</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> group </span>
+            <a href="#">Relationship</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined">
+              remove_shopping_cart
+            </span>
+            <a href="#">Sales Orders</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> deployed_code </span>
+            <a href="#">Stock Control</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> shopping_bag </span>
+            <a href="#">B2B eCommerce</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> finance </span>
+            <a href="#">Reporting</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> lightbulb_2 </span>
+            <a href="#">Intelligence</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> browse </span>
+            <a href="#">Browse App</a>
+          </div>
+
+          <div class="menu-list">
+            <span class="material-symbols-outlined"> settings </span>
+            <a href="#">Settings</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-section">
+        <div class="header-section">
+          <div class="header-input-container">
+            <span class="material-symbols-outlined"> search </span>
+            <input
+              type="text"
+              name="search-engine"
+              id="search-engine"
+              placeholder="Search"
+            />
+          </div>
+
+          <div class="header-right-container">
+            <div class="icons-container">
+              <span class="material-symbols-outlined"> help </span>
+              <div class="notification">
+                <span class="material-symbols-outlined"> notifications </span>
+                <p>.</p>
+              </div>
+            </div>
+
+            <div class="admin-container">
+              <div class="avatar-container">
+                <img
+                  src="./images/avatar-4.jpg"
+                  alt="Image of Admin"
+                  width="50"
+                />
+              </div>
+
+              <div class="name-title-container">
+                <p>Katie Pena</p>
+                <p>Admin</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-section">
+          <div class="orders-searchbar-and-newsales">
+            <h1>Orders</h1>
+
+            <div class="searchbar-and-newsales">
+              <div class="orders-searchbar">
+                <span class="material-symbols-outlined"> search </span>
+                <input
+                  type="text"
+                  name="search-bar"
+                  id="search-bar"
+                  placeholder="Search order, invoice, email, company..."
+                />
+              </div>
+
+              <button class="new-sales">
+                <span class="material-symbols-outlined"> add </span>
+                <p>New Sales Order</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="order-types">
+            <p>Active</p>
+            <p>All Orders</p>
+            <p>To Invoice</p>
+            <p>To Ship</p>
+            <p>To Backorder</p>
+          </div>
+        </div>
+
+        <div class="first-card-section">
+          <h2>Create your first order</h2>
+
+          <div class="first-card-text-and-button">
+            <p>
+              Revenue Commerce aggregates orders from all of your different
+              sales channels here. Manage orders from creation to fulfillment in
+              one place.
+            </p>
+            <button>Create a New Sales Order</button>
+          </div>
+        </div>
+
+        <div class="order-card-section">
+          <div class="order-list">
+            <div class="order-row header">
+              <input
+                type="checkbox"
+                name="order-row-header"
+                id="order-row-header"
+              />
+
+              <div class="order-cell">
+                <p>Order no.</p>
+              </div>
+              <div class="order-cell">
+                <p>Company name</p>
+              </div>
+              <div class="order-cell">
+                <p>Status</p>
+              </div>
+              <div class="order-cell">
+                <p>Packed</p>
+              </div>
+              <div class="order-cell">
+                <p>Fulfilled</p>
+              </div>
+              <div class="order-cell">
+                <p>Invoiced</p>
+              </div>
+              <div class="order-cell">
+                <p>Paid</p>
+              </div>
+              <div class="order-cell">
+                <p>Order Total</p>
+              </div>
+              <div class="order-cell">
+                <p>Created date</p>
+              </div>
+              <div class="order-cell">
+                <p>Last Updated</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0001</p>
+              </div>
+              <div class="order-cell">
+                <p>Vista</p>
+              </div>
+              <div class="order-cell">
+                <p>Shipped</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <p>$200.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0002</p>
+              </div>
+              <div class="order-cell">
+                <p>Paracetamol</p>
+              </div>
+              <div class="order-cell">
+                <p>Pending</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <p>$1200.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0003</p>
+              </div>
+              <div class="order-cell">
+                <p>Antacid</p>
+              </div>
+              <div class="order-cell">
+                <p>Shipped</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <p>$500.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0004</p>
+              </div>
+              <div class="order-cell">
+                <p>Estradiol</p>
+              </div>
+              <div class="order-cell">
+                <p>Cancelled</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <p>$70.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0005</p>
+              </div>
+              <div class="order-cell">
+                <p>Omeprazole</p>
+              </div>
+              <div class="order-cell">
+                <p>Pending</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined">
+                  check_indeterminate_small
+                </span>
+              </div>
+              <div class="order-cell">
+                <p>$18.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+
+            <div class="order-row">
+              <div class="order-cell">
+                <p>#CR0006</p>
+              </div>
+              <div class="order-cell">
+                <p>Ampicillin</p>
+              </div>
+              <div class="order-cell">
+                <p>Shipped</p>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <span class="material-symbols-outlined"> check </span>
+              </div>
+              <div class="order-cell">
+                <p>$120.00</p>
+              </div>
+              <div class="order-cell">
+                <p>12 Dec 2021</p>
+              </div>
+              <div class="order-cell">
+                <p>16 Dec 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
