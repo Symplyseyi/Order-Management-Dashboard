@@ -1,0 +1,36 @@
+[data-theme="dark"] {
+  /* Basic Colors */
+  --background: #171a1f;
+  --text: #f2f2f2;
+
+  /* Cards */
+  --card: #1c1f26;
+
+  /* Main Brand Color */
+  --brand: #7c3aed;
+
+  /* Grey Surfaces */
+  --surface: #292d36;
+  --soft: #292d36;
+  --soft-text: #9fa1a6;
+
+  /* Borders + Lines */
+  --line: #2f333d;
+
+  /* Status Colors */
+  --done: #9f7aea;
+  --done-bg: #2d1b4e;
+
+  --active: #22d3ee;
+  --active-bg: #083344;
+
+  --cancelled: #f87171;
+  --cancelled-bg: #4c1d1d;
+
+  --pending: #fbbf24;
+  --pending-bg: #4d3a0a;
+
+  /* Gradient */
+  --gradient-start: #400d1e;
+  --gradient-end: #0d2340;
+}
