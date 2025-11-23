@@ -664,7 +664,7 @@ img {
   border-radius: var(--space3);
 }
 
-.order-contents {
+.order-card-contents {
   min-width: 100%;
   height: auto;
   display: flex;
