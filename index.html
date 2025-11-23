@@ -61,7 +61,7 @@
           <div class="menu-list">
             <a href="#">
               <span class="material-symbols-outlined"> shopping_bag </span>
-              <p>B2B eCommerce</p></a
+              <p>ECommerce</p></a
             >
           </div>
 
@@ -98,17 +98,21 @@
       <!-- Right section -->
       <section class="right-section">
         <div class="header-section">
-          <div class="header-input-container">
-            <span class="material-symbols-outlined"> search </span>
-            <input
-              type="text"
-              name="search-engine"
-              id="search-engine"
-              placeholder="Search..."
-              autofocus
-            />
+          <div class="header-left-container">
+            <div class="menu-container">
+              <span class="material-symbols-outlined"> menu </span>
+            </div>
+            <div class="header-input-container">
+              <span class="material-symbols-outlined"> search </span>
+              <input
+                type="text"
+                name="search-engine"
+                id="search-engine"
+                placeholder="Search..."
+                autofocus
+              />
+            </div>
           </div>
-
           <div class="header-right-container">
             <div class="icons-container">
               <span class="material-symbols-outlined"> help </span>
@@ -134,7 +138,7 @@
         <div class="bottom-section">
           <div class="order-section">
             <div class="orders-searchbar-and-newsales">
-              <h1>Orders</h1>
+              <h1>Sales Orders</h1>
 
               <div class="searchbar-and-newsales">
                 <div class="orders-searchbar">
@@ -155,27 +159,27 @@
             </div>
 
             <div class="order-types">
-              <div class="order-list">
+              <div class="order-listt">
                 <input type="radio" id="active" name="order-list" />
                 <label for="active">Active</label>
               </div>
 
-              <div class="order-list">
+              <div class="order-listt">
                 <input type="radio" id="all-orders" name="order-list" />
                 <label for="all-orders">All Orders</label>
               </div>
 
-              <div class="order-list">
+              <div class="order-listt">
                 <input type="radio" id="invoice" name="order-list" />
                 <label for="invoice">To invoice</label>
               </div>
 
-              <div class="order-list">
+              <div class="order-listt">
                 <input type="radio" id="ship" name="order-list" />
                 <label for="ship">To Ship</label>
               </div>
 
-              <div class="order-list">
+              <div class="order-listt">
                 <input type="radio" id="backorder" name="order-list" />
                 <label for="backorder">To Backorder</label>
               </div>
@@ -183,32 +187,36 @@
           </div>
 
           <div class="first-card-section">
-            <h2>Create your first order</h2>
+            <p class="card-text">Create your first order</p>
 
             <div class="first-card-text-and-button">
-              <p>
-                Revenue Commerce aggregates orders from all of your different
-                sales channels here. Manage orders from creation to fulfillment
-                in one place.
-              </p>
+              <div class="first-card-texts">
+                <p>
+                  Revenue Commerce aggregates orders from all of your different
+                  sales channels here. Manage orders from
+                </p>
+                <p>creation to fulfillment in one place.</p>
+              </div>
+
+              <div class="second-card-texts">
+                <p>
+                  Revenue Commerce aggregates orders from all of your different
+                  sales channels here.Manage orders from creation to fulfillment
+                  in one place.
+                </p>
+              </div>
               <button>Create a New Sales Order</button>
             </div>
           </div>
 
           <div class="order-card-section">
-            <div class="order-list">
+            <div class="order-card-contents">
               <div class="order-row header">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
                 <div class="order-cell">
                   <p>Order no.</p>
                 </div>
                 <div class="order-cell">
-                  <p>Company name</p>
+                  <p>C-Name</p>
                 </div>
                 <div class="order-cell">
                   <p>Status</p>
@@ -237,19 +245,13 @@
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0001</p>
                 </div>
                 <div class="order-cell">
                   <p>Vista</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell shipped">
                   <p>Shipped</p>
                 </div>
                 <div class="order-cell">
@@ -264,39 +266,33 @@
                 <div class="order-cell">
                   <span class="material-symbols-outlined"> check </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$200.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0002</p>
                 </div>
                 <div class="order-cell">
                   <p>Paracetamol</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell pending">
                   <p>Pending</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
@@ -304,36 +300,30 @@
                 <div class="order-cell">
                   <span class="material-symbols-outlined"> check </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$1200.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0003</p>
                 </div>
                 <div class="order-cell">
                   <p>Antacid</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell shipped">
                   <p>Shipped</p>
                 </div>
                 <div class="order-cell">
@@ -348,125 +338,107 @@
                 <div class="order-cell">
                   <span class="material-symbols-outlined"> check </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$500.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0004</p>
                 </div>
                 <div class="order-cell">
                   <p>Estradiol</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell cancelled">
                   <p>Cancelled</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$70.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0005</p>
                 </div>
                 <div class="order-cell">
                   <p>Omeprazole</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell pending">
                   <p>Pending</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dash">
                   <span class="material-symbols-outlined">
                     check_indeterminate_small
                   </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$18.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
 
               <div class="order-row">
-                <input
-                  type="checkbox"
-                  name="order-row-header"
-                  id="order-row-header"
-                />
-
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>#CR0006</p>
                 </div>
                 <div class="order-cell">
                   <p>Ampicillin</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell shipped">
                   <p>Shipped</p>
                 </div>
                 <div class="order-cell">
@@ -481,13 +453,13 @@
                 <div class="order-cell">
                   <span class="material-symbols-outlined"> check </span>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell first-cell-text">
                   <p>$120.00</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>12 Dec 2021</p>
                 </div>
-                <div class="order-cell">
+                <div class="order-cell dates">
                   <p>16 Dec 2021</p>
                 </div>
               </div>
