@@ -124,7 +124,7 @@
   --dowColor: var(--brand);
 }
 
-/* Main Section */
+/*** Main Section ***/
 .main-section {
   width: 100%;
   height: auto;
@@ -134,7 +134,7 @@
   align-items: start;
 }
 
-/* Sidebar Section */
+/*** Start of Sidebar-section ***/
 .sidebar {
   width: 20%;
   height: 100vh;
@@ -225,7 +225,9 @@
   font-weight: var(--fontWeight-semiBold);
 }
 
-/* Right-side Section */
+/*** End of Sidebar-section ***/
+
+/*** Start of Right-section ***/
 .right-section {
   width: 100%;
   height: auto;
@@ -307,6 +309,50 @@
   justify-content: start;
   align-items: center;
   column-gap: var(--space3);
+}
+
+.icons-container span {
+  font-size: 22px;
+  color: var(--soft-text);
+  cursor: pointer;
+  padding: var(--space2);
+}
+
+.icons-container span:hover {
+  background-color: var(--background);
+  border-radius: var(--space3);
+}
+
+.notification-container {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.notification-container:hover {
+  background-color: var(--background);
+  border-radius: var(--space3);
+}
+
+.notification-container p {
+  font-size: var(--space11);
+  color: var(--error);
+  margin: -3.7rem 0 0 -1.25rem;
+}
+
+.admin-container {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  column-gap: var(--space3);
+  padding: 0 0 0 var(--space4);
 }
 
 .icons-container {
@@ -676,7 +722,9 @@ img {
   padding-left: var(--space3);
 }
 
-/* Tablet Responsivenes */
+/*** End of right-section ***/
+
+/*** Tablet Responsivenes ***/
 @media screen and (max-width: 1140px) {
   .main-section {
     width: auto;
@@ -741,59 +789,6 @@ img {
     justify-content: start;
     align-items: center;
     column-gap: var(--space3);
-  }
-
-  .icons-container {
-    width: fit-content;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .icons-container span {
-    font-size: 22px;
-    color: var(--soft-text);
-    cursor: pointer;
-    padding: var(--space2);
-  }
-
-  .icons-container span:hover {
-    background-color: var(--background);
-    border-radius: var(--space3);
-  }
-
-  .notification-container {
-    width: fit-content;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  .notification-container:hover {
-    background-color: var(--background);
-    border-radius: var(--space3);
-  }
-
-  .notification-container p {
-    font-size: var(--space11);
-    color: var(--error);
-    margin: -3.7rem 0 0 -1.25rem;
-  }
-
-  .admin-container {
-    width: fit-content;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    column-gap: var(--space3);
-    padding: 0 0 0 var(--space4);
   }
 
   .bottom-section {
@@ -890,6 +885,7 @@ img {
   }
 }
 
+/*** Mobile Responsiveness ***/
 @media screen and (max-width: 540px) {
   .header-left-container {
     width: 65%;
